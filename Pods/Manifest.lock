@@ -1,0 +1,146 @@
+PODS:
+  - DZNEmptyDataSet (1.8.1)
+  - FirebaseAnalytics (3.9.0):
+    - FirebaseCore (~> 3.6)
+    - FirebaseInstanceID (~> 1.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseCore (3.6.0):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseInstanceID (1.0.10):
+    - FirebaseCore (~> 3.6)
+  - FontAwesomeKit (2.2.1):
+    - FontAwesomeKit/Core (= 2.2.1)
+    - FontAwesomeKit/FontAwesome (= 2.2.1)
+    - FontAwesomeKit/FoundationIcons (= 2.2.1)
+    - FontAwesomeKit/IonIcons (= 2.2.1)
+    - FontAwesomeKit/Material (= 2.2.1)
+    - FontAwesomeKit/Octicons (= 2.2.1)
+    - FontAwesomeKit/Zocial (= 2.2.1)
+  - FontAwesomeKit/Core (2.2.1)
+  - FontAwesomeKit/FontAwesome (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Material (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Octicons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.2.1):
+    - FontAwesomeKit/Core
+  - Google/Core (3.1.0):
+    - FirebaseAnalytics (~> 3.2)
+  - Google/SignIn (3.1.0):
+    - Google/Core
+    - GoogleSignIn (~> 4.0)
+  - GoogleSignIn (4.1.2):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.0):
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - GoogleToolboxForMac/Defines (2.2.0)
+  - "GoogleToolboxForMac/NSData+zlib (2.2.0)":
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.0)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.0)
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.0)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.0)"
+  - GTMOAuth2 (1.1.6):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.2.1):
+    - GTMSessionFetcher/Full (= 1.2.1)
+  - GTMSessionFetcher/Core (1.2.1)
+  - GTMSessionFetcher/Full (1.2.1):
+    - GTMSessionFetcher/Core (= 1.2.1)
+  - HyperWindowSwitch (0.1.5)
+  - iOS-Codebase (1.4.8):
+    - DZNEmptyDataSet
+    - PodAsset
+    - pop
+    - PPTopMostController
+    - ReactiveObjC (~> 3.1.0)
+    - SQLCipher
+  - MaryPopin (1.4.3)
+  - MTBBarcodeScanner (5.0.11)
+  - PodAsset (1.0.0)
+  - pop (1.0.12)
+  - PPTopMostController (0.0.1)
+  - ReactiveObjC (3.1.1)
+  - SQLCipher (4.1.0):
+    - SQLCipher/standard (= 4.1.0)
+  - SQLCipher/common (4.1.0)
+  - SQLCipher/standard (4.1.0):
+    - SQLCipher/common
+  - SwipeBack (1.1.1)
+  - TTTAttributedLabel (2.0.0)
+
+DEPENDENCIES:
+  - DZNEmptyDataSet
+  - FontAwesomeKit
+  - Google/SignIn
+  - GoogleSignIn (~> 4.1.1)
+  - HyperWindowSwitch
+  - iOS-Codebase (~> 1.4.8)
+  - MaryPopin
+  - MTBBarcodeScanner
+  - pop
+  - PPTopMostController
+  - ReactiveObjC (~> 3.1.0)
+  - SwipeBack
+  - TTTAttributedLabel
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DZNEmptyDataSet
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FontAwesomeKit
+    - Google
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMOAuth2
+    - GTMSessionFetcher
+    - HyperWindowSwitch
+    - MaryPopin
+    - MTBBarcodeScanner
+    - PodAsset
+    - pop
+    - PPTopMostController
+    - ReactiveObjC
+    - SQLCipher
+    - SwipeBack
+    - TTTAttributedLabel
+  https://github.com/innovian/innovian-podspec.git:
+    - iOS-Codebase
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FirebaseAnalytics: e5fe8486efc01bec33f6bf82e2fa9fce4b124052
+  FirebaseCore: 9691ee2ade70c098d7cf92440f4303f16d83ca75
+  FirebaseInstanceID: b9eedd6846fb5e1f0f7279e1deaa7a7e4cf8392e
+  FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
+  Google: 98da4b1a60ed0beb80a290387a28333406a1eb90
+  GoogleSignIn: d9ef55b10f0aa401a5de2747f59b725e4b9732ac
+  GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
+  GTMOAuth2: e8b6512c896235149df975c41d9a36c868ab7fba
+  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  HyperWindowSwitch: e3e9a2c3201df46431d0c9cb85a3b4ef26ebbbda
+  iOS-Codebase: 073c33552c3ff755c8e33b876330ccd4aab50b09
+  MaryPopin: ef1f32f744078ac2761140ab7c60cb82554c7e2a
+  MTBBarcodeScanner: f453b33c4b7dfe545d8c6484ed744d55671788cb
+  PodAsset: c2c2b20013c1edf698fea2bacba6e75a638537a2
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  PPTopMostController: 4e6f1e5f8c645bdcc74cd837a20f607ff262c048
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SQLCipher: efbdb52cdbe340bcd892b1b14297df4e07241b7f
+  SwipeBack: d6759601b40da1f4161033feb30ab475d7d04322
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+
+PODFILE CHECKSUM: 4c68fecba5f7ac15429b6334b4092c637a8c4e28
+
+COCOAPODS: 1.5.3

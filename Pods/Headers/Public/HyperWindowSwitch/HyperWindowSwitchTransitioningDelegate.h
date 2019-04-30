@@ -1,0 +1,1 @@
+../../../HyperWindowSwitch/HyperWindowSwitch/Classes/HyperWindowSwitchTransitioningDelegate.h

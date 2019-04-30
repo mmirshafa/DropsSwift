@@ -1,0 +1,1 @@
+../../../iOS-Codebase/iOS-Codebase/Classes/Components/UI/HVAnimatedVector.h

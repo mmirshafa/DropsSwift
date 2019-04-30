@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		437787AC1CBD985EB817977F /* libPods-DropsSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC70BEA134BCAD34445541C /* libPods-DropsSwift.a */; };
+		8B91642D227829850097111C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91642C227829850097111C /* AppDelegate.swift */; };
+		8B916434227829860097111C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B916433227829860097111C /* Assets.xcassets */; };
+		8B916437227829860097111C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B916435227829860097111C /* LaunchScreen.storyboard */; };
+		8B91644222782E550097111C /* _BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91644122782E550097111C /* _BaseVC.swift */; };
+		8B91644422782F100097111C /* NavTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91644322782F100097111C /* NavTitleView.swift */; };
+		8B91644622782FFE0097111C /* _Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91644522782FFE0097111C /* _Fonts.swift */; };
+		8B9164602278329D0097111C /* FuturaLT-ExtraBoldOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B9164482278329D0097111C /* FuturaLT-ExtraBoldOblique.ttf */; };
+		8B9164612278329D0097111C /* FuturaLT-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B9164492278329D0097111C /* FuturaLT-Bold.ttf */; };
+		8B9164622278329D0097111C /* FuturaLT-CondensedExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B91644A2278329D0097111C /* FuturaLT-CondensedExtraBold.ttf */; };
+		8B9164632278329D0097111C /* FuturaLT-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B91644B2278329D0097111C /* FuturaLT-Book.ttf */; };
+		8B9164642278329D0097111C /* FuturaLT-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B91644C2278329D0097111C /* FuturaLT-ExtraBold.ttf */; };
+		8B9164652278329D0097111C /* FuturaLT-CondensedLightObl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B91644D2278329D0097111C /* FuturaLT-CondensedLightObl.ttf */; };
+		8B9164662278329D0097111C /* FuturaLT-CondensedLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B91644E2278329D0097111C /* FuturaLT-CondensedLight.ttf */; };
+		8B9164672278329D0097111C /* gesstwomedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B91644F2278329D0097111C /* gesstwomedium.ttf */; };
+		8B9164682278329D0097111C /* FuturaLT-CondExtraBoldObl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B9164502278329D0097111C /* FuturaLT-CondExtraBoldObl.ttf */; };
+		8B9164692278329D0097111C /* FuturaLT-CondensedOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B9164512278329D0097111C /* FuturaLT-CondensedOblique.ttf */; };
+		8B91646A2278329D0097111C /* FuturaLT-CondensedBoldOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B9164522278329D0097111C /* FuturaLT-CondensedBoldOblique.ttf */; };
+		8B91646B2278329D0097111C /* FuturaLT-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B9164532278329D0097111C /* FuturaLT-Heavy.ttf */; };
+		8B91646C2278329D0097111C /* FuturaLT-LightOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B9164542278329D0097111C /* FuturaLT-LightOblique.ttf */; };
+		8B91646D2278329D0097111C /* GE_East_ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B9164552278329D0097111C /* GE_East_ExtraBold.otf */; };
+		8B91646E2278329D0097111C /* FuturaLT-BookOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B9164562278329D0097111C /* FuturaLT-BookOblique.ttf */; };
+		8B91646F2278329D0097111C /* FuturaLT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B9164572278329D0097111C /* FuturaLT.ttf */; };
+		8B9164702278329D0097111C /* FuturaLT-BoldOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B9164582278329D0097111C /* FuturaLT-BoldOblique.ttf */; };
+		8B9164712278329D0097111C /* GE_East_ExtraBold_Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B9164592278329D0097111C /* GE_East_ExtraBold_Italic.otf */; };
+		8B9164722278329D0097111C /* FuturaLT-CondensedBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B91645A2278329D0097111C /* FuturaLT-CondensedBold.ttf */; };
+		8B9164732278329D0097111C /* FuturaLT-Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B91645B2278329D0097111C /* FuturaLT-Oblique.ttf */; };
+		8B9164742278329D0097111C /* gesstwolight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B91645C2278329D0097111C /* gesstwolight.ttf */; };
+		8B9164752278329D0097111C /* FuturaLT-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B91645D2278329D0097111C /* FuturaLT-Light.ttf */; };
+		8B9164762278329D0097111C /* FuturaLT-Condensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B91645E2278329D0097111C /* FuturaLT-Condensed.ttf */; };
+		8B9164772278329D0097111C /* FuturaLT-HeavyOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B91645F2278329D0097111C /* FuturaLT-HeavyOblique.ttf */; };
+		8B916479227835630097111C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B916478227835630097111C /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6AC70BEA134BCAD34445541C /* libPods-DropsSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DropsSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B916429227829850097111C /* DropsSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropsSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B91642C227829850097111C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B916433227829860097111C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B916436227829860097111C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B916438227829860097111C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B91643E22782AF80097111C /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		8B91644122782E550097111C /* _BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _BaseVC.swift; sourceTree = "<group>"; };
+		8B91644322782F100097111C /* NavTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavTitleView.swift; sourceTree = "<group>"; };
+		8B91644522782FFE0097111C /* _Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Fonts.swift; sourceTree = "<group>"; };
+		8B9164482278329D0097111C /* FuturaLT-ExtraBoldOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaLT-ExtraBoldOblique.ttf"; sourceTree = "<group>"; };
+		8B9164492278329D0097111C /* FuturaLT-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaLT-Bold.ttf"; sourceTree = "<group>"; };
+		8B91644A2278329D0097111C /* FuturaLT-CondensedExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaLT-CondensedExtraBold.ttf"; sourceTree = "<group>"; };
+		8B91644B2278329D0097111C /* FuturaLT-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaLT-Book.ttf"; sourceTree = "<group>"; };
+		8B91644C2278329D0097111C /* FuturaLT-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaLT-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8B91644D2278329D0097111C /* FuturaLT-CondensedLightObl.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaLT-CondensedLightObl.ttf"; sourceTree = "<group>"; };
+		8B91644E2278329D0097111C /* FuturaLT-CondensedLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaLT-CondensedLight.ttf"; sourceTree = "<group>"; };
+		8B91644F2278329D0097111C /* gesstwomedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = gesstwomedium.ttf; sourceTree = "<group>"; };
+		8B9164502278329D0097111C /* FuturaLT-CondExtraBoldObl.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaLT-CondExtraBoldObl.ttf"; sourceTree = "<group>"; };
+		8B9164512278329D0097111C /* FuturaLT-CondensedOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaLT-CondensedOblique.ttf"; sourceTree = "<group>"; };
+		8B9164522278329D0097111C /* FuturaLT-CondensedBoldOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaLT-CondensedBoldOblique.ttf"; sourceTree = "<group>"; };
+		8B9164532278329D0097111C /* FuturaLT-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaLT-Heavy.ttf"; sourceTree = "<group>"; };
+		8B9164542278329D0097111C /* FuturaLT-LightOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaLT-LightOblique.ttf"; sourceTree = "<group>"; };
+		8B9164552278329D0097111C /* GE_East_ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GE_East_ExtraBold.otf; sourceTree = "<group>"; };
+		8B9164562278329D0097111C /* FuturaLT-BookOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaLT-BookOblique.ttf"; sourceTree = "<group>"; };
+		8B9164572278329D0097111C /* FuturaLT.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FuturaLT.ttf; sourceTree = "<group>"; };
+		8B9164582278329D0097111C /* FuturaLT-BoldOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaLT-BoldOblique.ttf"; sourceTree = "<group>"; };
+		8B9164592278329D0097111C /* GE_East_ExtraBold_Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GE_East_ExtraBold_Italic.otf; sourceTree = "<group>"; };
+		8B91645A2278329D0097111C /* FuturaLT-CondensedBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaLT-CondensedBold.ttf"; sourceTree = "<group>"; };
+		8B91645B2278329D0097111C /* FuturaLT-Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaLT-Oblique.ttf"; sourceTree = "<group>"; };
+		8B91645C2278329D0097111C /* gesstwolight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = gesstwolight.ttf; sourceTree = "<group>"; };
+		8B91645D2278329D0097111C /* FuturaLT-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaLT-Light.ttf"; sourceTree = "<group>"; };
+		8B91645E2278329D0097111C /* FuturaLT-Condensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaLT-Condensed.ttf"; sourceTree = "<group>"; };
+		8B91645F2278329D0097111C /* FuturaLT-HeavyOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaLT-HeavyOblique.ttf"; sourceTree = "<group>"; };
+		8B916478227835630097111C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A394AAD9BB0B7CC72B011296 /* Pods-DropsSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropsSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DropsSwift/Pods-DropsSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		B9FB1AC9D3D04FA8BAEB3D14 /* Pods-DropsSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropsSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-DropsSwift/Pods-DropsSwift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B916426227829850097111C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437787AC1CBD985EB817977F /* libPods-DropsSwift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B916420227829850097111C = {
+			isa = PBXGroup;
+			children = (
+				8B91642B227829850097111C /* DropsSwift */,
+				8B91642A227829850097111C /* Products */,
+				BACAC113BC1F1B4B5A851CA4 /* Pods */,
+				B00DE9142400E4CD9F6AB622 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B91642A227829850097111C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B916429227829850097111C /* DropsSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B91642B227829850097111C /* DropsSwift */ = {
+			isa = PBXGroup;
+			children = (
+				8B91642C227829850097111C /* AppDelegate.swift */,
+				8B916433227829860097111C /* Assets.xcassets */,
+				8B916478227835630097111C /* Main.storyboard */,
+				8B916435227829860097111C /* LaunchScreen.storyboard */,
+				8B916438227829860097111C /* Info.plist */,
+				8B91643E22782AF80097111C /* BridgingHeader.h */,
+				8B91644122782E550097111C /* _BaseVC.swift */,
+				8B91644322782F100097111C /* NavTitleView.swift */,
+				8B91644522782FFE0097111C /* _Fonts.swift */,
+				8B9164472278329D0097111C /* Fonts */,
+			);
+			path = DropsSwift;
+			sourceTree = "<group>";
+		};
+		8B9164472278329D0097111C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8B9164482278329D0097111C /* FuturaLT-ExtraBoldOblique.ttf */,
+				8B9164492278329D0097111C /* FuturaLT-Bold.ttf */,
+				8B91644A2278329D0097111C /* FuturaLT-CondensedExtraBold.ttf */,
+				8B91644B2278329D0097111C /* FuturaLT-Book.ttf */,
+				8B91644C2278329D0097111C /* FuturaLT-ExtraBold.ttf */,
+				8B91644D2278329D0097111C /* FuturaLT-CondensedLightObl.ttf */,
+				8B91644E2278329D0097111C /* FuturaLT-CondensedLight.ttf */,
+				8B91644F2278329D0097111C /* gesstwomedium.ttf */,
+				8B9164502278329D0097111C /* FuturaLT-CondExtraBoldObl.ttf */,
+				8B9164512278329D0097111C /* FuturaLT-CondensedOblique.ttf */,
+				8B9164522278329D0097111C /* FuturaLT-CondensedBoldOblique.ttf */,
+				8B9164532278329D0097111C /* FuturaLT-Heavy.ttf */,
+				8B9164542278329D0097111C /* FuturaLT-LightOblique.ttf */,
+				8B9164552278329D0097111C /* GE_East_ExtraBold.otf */,
+				8B9164562278329D0097111C /* FuturaLT-BookOblique.ttf */,
+				8B9164572278329D0097111C /* FuturaLT.ttf */,
+				8B9164582278329D0097111C /* FuturaLT-BoldOblique.ttf */,
+				8B9164592278329D0097111C /* GE_East_ExtraBold_Italic.otf */,
+				8B91645A2278329D0097111C /* FuturaLT-CondensedBold.ttf */,
+				8B91645B2278329D0097111C /* FuturaLT-Oblique.ttf */,
+				8B91645C2278329D0097111C /* gesstwolight.ttf */,
+				8B91645D2278329D0097111C /* FuturaLT-Light.ttf */,
+				8B91645E2278329D0097111C /* FuturaLT-Condensed.ttf */,
+				8B91645F2278329D0097111C /* FuturaLT-HeavyOblique.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B00DE9142400E4CD9F6AB622 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AC70BEA134BCAD34445541C /* libPods-DropsSwift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BACAC113BC1F1B4B5A851CA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A394AAD9BB0B7CC72B011296 /* Pods-DropsSwift.debug.xcconfig */,
+				B9FB1AC9D3D04FA8BAEB3D14 /* Pods-DropsSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B916428227829850097111C /* DropsSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B91643B227829860097111C /* Build configuration list for PBXNativeTarget "DropsSwift" */;
+			buildPhases = (
+				54983A374F534CF54E538419 /* [CP] Check Pods Manifest.lock */,
+				8B916425227829850097111C /* Sources */,
+				8B916426227829850097111C /* Frameworks */,
+				8B916427227829850097111C /* Resources */,
+				BAB07BC31CE5434B33471CB2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropsSwift;
+			productName = DropsSwift;
+			productReference = 8B916429227829850097111C /* DropsSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B916421227829850097111C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Nizek;
+				TargetAttributes = {
+					8B916428227829850097111C = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 8B916424227829850097111C /* Build configuration list for PBXProject "DropsSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B916420227829850097111C;
+			productRefGroup = 8B91642A227829850097111C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B916428227829850097111C /* DropsSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B916427227829850097111C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9164622278329D0097111C /* FuturaLT-CondensedExtraBold.ttf in Resources */,
+				8B9164682278329D0097111C /* FuturaLT-CondExtraBoldObl.ttf in Resources */,
+				8B9164752278329D0097111C /* FuturaLT-Light.ttf in Resources */,
+				8B91646C2278329D0097111C /* FuturaLT-LightOblique.ttf in Resources */,
+				8B9164642278329D0097111C /* FuturaLT-ExtraBold.ttf in Resources */,
+				8B9164702278329D0097111C /* FuturaLT-BoldOblique.ttf in Resources */,
+				8B916479227835630097111C /* Main.storyboard in Resources */,
+				8B91646B2278329D0097111C /* FuturaLT-Heavy.ttf in Resources */,
+				8B91646E2278329D0097111C /* FuturaLT-BookOblique.ttf in Resources */,
+				8B9164602278329D0097111C /* FuturaLT-ExtraBoldOblique.ttf in Resources */,
+				8B9164722278329D0097111C /* FuturaLT-CondensedBold.ttf in Resources */,
+				8B9164762278329D0097111C /* FuturaLT-Condensed.ttf in Resources */,
+				8B9164742278329D0097111C /* gesstwolight.ttf in Resources */,
+				8B9164632278329D0097111C /* FuturaLT-Book.ttf in Resources */,
+				8B9164692278329D0097111C /* FuturaLT-CondensedOblique.ttf in Resources */,
+				8B91646D2278329D0097111C /* GE_East_ExtraBold.otf in Resources */,
+				8B91646A2278329D0097111C /* FuturaLT-CondensedBoldOblique.ttf in Resources */,
+				8B9164712278329D0097111C /* GE_East_ExtraBold_Italic.otf in Resources */,
+				8B9164772278329D0097111C /* FuturaLT-HeavyOblique.ttf in Resources */,
+				8B9164672278329D0097111C /* gesstwomedium.ttf in Resources */,
+				8B916437227829860097111C /* LaunchScreen.storyboard in Resources */,
+				8B91646F2278329D0097111C /* FuturaLT.ttf in Resources */,
+				8B9164732278329D0097111C /* FuturaLT-Oblique.ttf in Resources */,
+				8B9164612278329D0097111C /* FuturaLT-Bold.ttf in Resources */,
+				8B9164662278329D0097111C /* FuturaLT-CondensedLight.ttf in Resources */,
+				8B9164652278329D0097111C /* FuturaLT-CondensedLightObl.ttf in Resources */,
+				8B916434227829860097111C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54983A374F534CF54E538419 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DropsSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAB07BC31CE5434B33471CB2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DropsSwift/Pods-DropsSwift-resources.sh",
+				"${PODS_ROOT}/FontAwesomeKit/FontAwesomeKit/FontAwesome.otf",
+				"${PODS_ROOT}/FontAwesomeKit/FontAwesomeKit/foundation-icons.ttf",
+				"${PODS_ROOT}/FontAwesomeKit/FontAwesomeKit/ionicons.ttf",
+				"${PODS_ROOT}/FontAwesomeKit/FontAwesomeKit/Material-Design-Iconic-Font.ttf",
+				"${PODS_ROOT}/FontAwesomeKit/FontAwesomeKit/octicons.ttf",
+				"${PODS_ROOT}/FontAwesomeKit/FontAwesomeKit/zocial-regular-webfont.ttf",
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/iOS-Codebase/iOS-Codebase.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.otf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/foundation-icons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Material-Design-Iconic-Font.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zocial-regular-webfont.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GTMOAuth2ViewTouch.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/iOS-Codebase.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DropsSwift/Pods-DropsSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B916425227829850097111C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B91644622782FFE0097111C /* _Fonts.swift in Sources */,
+				8B91644422782F100097111C /* NavTitleView.swift in Sources */,
+				8B91642D227829850097111C /* AppDelegate.swift in Sources */,
+				8B91644222782E550097111C /* _BaseVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B916435227829860097111C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B916436227829860097111C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B916439227829860097111C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B91643A227829860097111C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B91643C227829860097111C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A394AAD9BB0B7CC72B011296 /* Pods-DropsSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35S7HUEQGP;
+				INFOPLIST_FILE = DropsSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nizek.DropsSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/developer/Documents/iOS/DropsSwift/DropsSwift/BridgingHeader.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B91643D227829860097111C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9FB1AC9D3D04FA8BAEB3D14 /* Pods-DropsSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35S7HUEQGP;
+				INFOPLIST_FILE = DropsSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nizek.DropsSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/developer/Documents/iOS/DropsSwift/DropsSwift/BridgingHeader.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B916424227829850097111C /* Build configuration list for PBXProject "DropsSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B916439227829860097111C /* Debug */,
+				8B91643A227829860097111C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B91643B227829860097111C /* Build configuration list for PBXNativeTarget "DropsSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B91643C227829860097111C /* Debug */,
+				8B91643D227829860097111C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B916421227829850097111C /* Project object */;
+}

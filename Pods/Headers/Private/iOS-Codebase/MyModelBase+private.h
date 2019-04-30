@@ -1,0 +1,1 @@
+../../../iOS-Codebase/iOS-Codebase/Classes/Models/MyModelBase+private.h
